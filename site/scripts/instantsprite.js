@@ -487,6 +487,8 @@ sprite.init = function() {
 	$(window).resize(fitDropboxToScreen);
 	$("#initialload").remove();
 	elements.dropbox.find("ul").removeClass("hide");
+
+	sprite.indexeddb.init();
 };
 
 
